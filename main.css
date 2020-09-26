@@ -1,0 +1,61 @@
+body,html{
+    height: 100%;
+    margin: 0px;
+}
+.container-fluid{
+    background-image: linear-gradient(rgba(248, 237, 229, 0), rgba(241, 236, 236, 0)), url(images/back2.jpeg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+}
+
+.num{
+    font-family: 'Arimo', sans-serif;
+    color: rgb(197, 193, 193);
+}
+.type{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(139, 138, 138);
+}
+.expire, h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(139, 138, 138);
+    font-size: 100px;
+}
+/* greater than md device */
+@media (min-width: 768px){
+    .small_device, .small_top_space{
+        display: none;
+    }
+    .dyl, .hrl, .mnl{
+        border-right: 1px solid rgb(172, 172, 172);
+    }
+    .num{
+        font-size: 70px;
+    }
+    .type{
+        font-family: 400;
+        font-size: 30px;
+    }
+}
+/* less than md device */
+@media (max-width: 768px){
+    .large_device, .large_top_space{
+        display: none;
+    }
+    .num{
+        font-size: 50px;
+    }
+    .type{
+        font-family: 400;
+        font-size: 30px;
+    }
+}
