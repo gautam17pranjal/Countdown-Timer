@@ -28,7 +28,7 @@ body,html{
 .expire, h1{
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(139, 138, 138);
-    font-size: 100px;
+    font-size: 60px;
 }
 /* greater than md device */
 @media (min-width: 768px){
@@ -54,8 +54,10 @@ body,html{
     .num{
         font-size: 50px;
     }
-    .type{
-        font-family: 400;
+    h1{
         font-size: 30px;
+    }
+    .type{
+        font-size: 25px;
     }
 }
