@@ -1,2 +1,2 @@
 # Countdown-Timer
-Countdown timer 
+Countdown timer built using HTML, Bootstrap, jQuery.
